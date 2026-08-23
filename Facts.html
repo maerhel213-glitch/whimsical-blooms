@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flower Facts</title>
+
+
+<a href="Discover Your Flower.html" class="back">← Back</a>
+
+<style>
+.back-home {
+    display: inline-block;
+    text-decoration: none;
+    color: #8f555b;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 10px 18px;
+    border-bottom: 1px solid #d8b8b4;
+    transition: 0.3s ease;
+}
+
+.back-home:hover {
+    color: #a75d65;
+    letter-spacing: 2.5px;
+}
+</style>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f8f3ed;
+            color: #3f302d;
+            font-family: Georgia, serif;
+            padding: 60px 8%;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 55px;
+        }
+
+        .small-title {
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            letter-spacing: 4px;
+            color: #9b7773;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 55px;
+            font-weight: normal;
+            line-height: 1;
+        }
+
+        h1 span {
+            color: #a75d65;
+            font-style: italic;
+        }
+
+        .intro p {
+            margin: 20px auto;
+            max-width: 600px;
+            font-family: Arial, sans-serif;
+            color: #766866;
+            line-height: 1.7;
+            font-size: 14px;
+        }
+
+        .flowers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            background: #fffdf9;
+            border: 1px solid #e8ddd5;
+            padding: 30px;
+            min-height: 230px;
+            transition: 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 15px 35px rgba(100, 70, 60, 0.10);
+        }
+
+        .flower-number {
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            letter-spacing: 2px;
+            color: #b98b88;
+        }
+
+        .flower-name {
+            font-size: 30px;
+            margin: 15px 0 12px;
+            font-weight: normal;
+        }
+
+        .flower-name span {
+            font-style: italic;
+            color: #a75d65;
+        }
+
+        .fact {
+            font-family: Arial, sans-serif;
+            color: #756866;
+            font-size: 13px;
+            line-height: 1.7;
+        }
+
+        .symbol {
+            position: absolute;
+            right: 20px;
+            bottom: 12px;
+            font-size: 45px;
+            opacity: 0.15;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            letter-spacing: 3px;
+            color: #a78c87;
+        }
+
+        @media (max-width: 800px) {
+            .flowers {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            h1 {
+                font-size: 45px;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .flowers {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="intro">
+
+        <div class="small-title">
+            ✦ A LITTLE FLOWER GUIDE ✦
+        </div>
+
+        <h1>
+            Flower <span>Facts.</span>
+        </h1>
+
+        <p>
+            Every flower carries its own beauty, story, and meaning.
+            Discover little facts about the blooms in our garden.
+        </p>
+
+    </section>
+
+
+    <section class="flowers">
+
+        <!-- ROSE -->
+        <div class="card">
+            <div class="flower-number">01 · THE CLASSIC</div>
+
+            <h2 class="flower-name">
+                <span>Rose</span>
+            </h2>
+
+            <p class="fact">
+                Roses are one of the most widely recognized flowers.
+                They are often associated with love, beauty, and affection.
+            </p>
+
+            <div class="symbol">🌹</div>
+        </div>
+
+
+        <!-- SUNFLOWER -->
+        <div class="card">
+            <div class="flower-number">02 · THE SUNNY ONE</div>
+
+            <h2 class="flower-name">
+                <span>Sunflower</span>
+            </h2>
+
+            <p class="fact">
+                Sunflowers are known for their bright yellow petals.
+                Young sunflowers can turn toward the sunlight as they grow.
+            </p>
+
+            <div class="symbol">🌻</div>
+        </div>
+
+
+        <!-- TULIP -->
+        <div class="card">
+            <div class="flower-number">03 · THE ELEGANT BLOOM</div>
+
+            <h2 class="flower-name">
+                <span>Tulip</span>
+            </h2>
+
+            <p class="fact">
+                Tulips come in many colors and shapes.
+                They are especially famous for their beautiful spring blooms.
+            </p>
+
+            <div class="symbol">🌷</div>
+        </div>
+
+
+        <!-- LAVENDER -->
+        <div class="card">
+            <div class="flower-number">04 · THE FRAGRANT ONE</div>
+
+            <h2 class="flower-name">
+                <span>Lavender</span>
+            </h2>
+
+            <p class="fact">
+                Lavender is known for its purple flowers and pleasant fragrance.
+                It is also commonly grown as an ornamental plant.
+            </p>
+
+            <div class="symbol">🪻</div>
+        </div>
+
+
+        <!-- LILY OF THE VALLEY -->
+        <div class="card">
+            <div class="flower-number">05 · THE DELICATE BLOOM</div>
+
+            <h2 class="flower-name">
+                <span>Lily of the Valley</span>
+            </h2>
+
+            <p class="fact">
+                Lily of the valley produces small, bell-shaped white flowers.
+                Despite its delicate appearance, the plant is toxic if eaten.
+            </p>
+
+            <div class="symbol">🤍</div>
+        </div>
+
+
+        <!-- CHERRY BLOSSOM -->
+        <div class="card">
+            <div class="flower-number">06 · THE SPRING BLOOM</div>
+
+            <h2 class="flower-name">
+                <span>Cherry Blossom</span>
+            </h2>
+
+            <p class="fact">
+                Cherry blossoms are famous for their soft pink or white petals.
+                Their blooming season is often associated with the arrival of spring.
+            </p>
+
+            <div class="symbol">🌸</div>
+        </div>
+
+
+        <!-- DAISY -->
+        <div class="card">
+            <div class="flower-number">07 · THE SIMPLE BEAUTY</div>
+
+            <h2 class="flower-name">
+                <span>Daisy</span>
+            </h2>
+
+            <p class="fact">
+                Daisies usually have white petals surrounding a yellow center.
+                They are often associated with innocence and simplicity.
+            </p>
+
+            <div class="symbol">🌼</div>
+        </div>
+
+
+        <!-- DAFFODIL -->
+        <div class="card">
+            <div class="flower-number">08 · THE SPRING STAR</div>
+
+            <h2 class="flower-name">
+                <span>Daffodil</span>
+            </h2>
+
+            <p class="fact">
+                Daffodils are usually recognized by their bright yellow flowers
+                and trumpet-shaped centers. They commonly bloom in spring.
+            </p>
+
+            <div class="symbol">🌼</div>
+        </div>
+
+
+        <!-- HIBISCUS -->
+        <div class="card">
+            <div class="flower-number">09 · THE TROPICAL BLOOM</div>
+
+            <h2 class="flower-name">
+                <span>Hibiscus</span>
+            </h2>
+
+            <p class="fact">
+                Hibiscus flowers are large and colorful, making them popular
+                ornamental plants in tropical and warm climates.
+            </p>
+
+            <div class="symbol">🌺</div>
+        </div>
+
+    </section>
+
+
+    <div class="footer">
+        ✦ WHIMSICAL BLOOMS · DISCOVER · ADMIRE · BLOOM ✦
+    </div>
+
+
+
+</body>
+</html>

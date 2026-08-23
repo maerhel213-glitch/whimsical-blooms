@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Whimsical Blooms</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body style="
+    margin: 0;
+    background: #fbf5ef;
+    color: #493b3d;
+    font-family: 'Poppins', sans-serif;
+">
+
+
+
+
+<header style="
+    padding: 25px 60px;
+    background: rgba(255,255,255,0.75);
+    border-bottom: 1px solid #ead9d2;
+">
+
+
+    <div class="flower-design"></div>
+</nav>
+
+
+</style>
+
+<div class="falling-flowers">
+    <span>✿</span>
+    <span>❀</span>
+    <span>✿</span>
+    <span>❀</span>
+    <span>✿</span>
+    <span>❀</span>
+    <span>✿</span>
+    <span>❀</span>
+</div>
+
+
+    </div>
+
+    <!-- FALLING FLOWERS -->
+    <div class="falling-flowers">
+        <span class="petal p1">🌸</span>
+        <span class="petal p2">🌸</span>
+        <span class="petal p3">🌸</span>
+        <span class="petal p4">🌸</span>
+        <span class="petal p5">🌸</span>
+        <span class="petal p6">🌸</span>
+        <span class="petal p7">🌸</span>
+        <span class="petal p8">🌸</span>
+    </div>
+</nav>
+
+<style>
+nav {
+    position: relative;
+    background: white;
+    padding: 25px 60px;
+    height: 90px;
+    z-index: 10;
+}
+
+.links {
+    position: absolute;
+    right: 60px;
+    top: 30px;
+}
+
+.links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* AREA WHERE THE FLOWERS FALL */
+.falling-flowers {
+    position: absolute;
+    top: 45px;
+    right: 70px;
+    width: 180px;
+    height: 600px;
+    pointer-events: none;
+    overflow: visible;
+    z-index: 20;
+}
+
+/* EACH FLOWER */
+.petal {
+    position: absolute;
+    top: -30px;
+    font-size: 18px;
+    opacity: 0;
+    animation: fall 6s linear infinite;
+}
+
+/* DIFFERENT POSITIONS + SPEEDS */
+.p1 { left: 10px; animation-delay: 0s; }
+.p2 { left: 45px; animation-delay: 1.5s; font-size: 12px; }
+.p3 { left: 80px; animation-delay: 3s; font-size: 22px; }
+.p4 { left: 120px; animation-delay: 0.8s; font-size: 14px; }
+.p5 { left: 150px; animation-delay: 2.2s; font-size: 10px; }
+.p6 { left: 30px; animation-delay: 4s; font-size: 15px; }
+.p7 { left: 100px; animation-delay: 4.8s; font-size: 12px; }
+.p8 { left: 135px; animation-delay: 3.8s; font-size: 18px; }
+
+/* ACTUAL FALLING MOTION */
+@keyframes fall {
+    0% {
+        transform: translateY(0) translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: translateY(280px) translateX(25px) rotate(120deg);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: translateY(600px) translateX(-20px) rotate(280deg);
+        opacity: 0;
+    }
+}
+
+</style>
+
+    <nav style="
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    ">
+
+        <h2 style="
+            margin: 0;
+            font-family: 'DM Serif Display', serif;
+            font-size: 28px;
+            color: #9d596b;
+        ">
+            🌷 Whimsical Blooms
+        </h2>
+
+
+        <div>
+
+            <a href="index.html"
+               style="
+               text-decoration: none;
+               color: #9d596b;
+               margin: 0 12px;
+               font-size: 14px;
+               ">
+              
+            </a>
+
+
+
+           
+            </a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+<section style="
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 10%;
+    gap: 60px;
+">
+
+
+    <div style="
+        max-width: 570px;
+    ">
+
+        <p style="
+            color: #b26b7c;
+            letter-spacing: 4px;
+            font-size: 12px;
+            margin-bottom: 20px;
+        ">
+            ✦ WELCOME TO THE WORLD OF FLOWERS ✦
+        </p>
+
+
+        <h1 style="
+            font-family: 'DM Serif Display', serif;
+            font-size: 85px;
+            line-height: 0.95;
+            font-weight: normal;
+            margin: 0;
+            color: #403436;
+        ">
+
+            Whimsical
+            <br>
+
+            <span style="
+                color: #b76578;
+                font-style: italic;
+            ">
+                Blooms.
+            </span>
+
+        </h1>
+
+
+        <h2 style="
+            font-family: 'DM Serif Display', serif;
+            font-size: 30px;
+            font-weight: normal;
+            margin-top: 35px;
+            color: #604b50;
+        ">
+
+            Have you ever wondered
+            <br>
+            what a flower might say? 🌷
+
+        </h2>
+
+
+        <p style="
+            color: #806e72;
+            font-size: 15px;
+            line-height: 1.9;
+            max-width: 500px;
+        ">
+
+            Every flower has a story waiting to be discovered.
+            Explore their beauty, meanings, colors, and secrets
+            as you step into our little garden.
+
+        </p>
+
+
+        <br>
+
+
+        <a href="Discover Your Flower.html"
+           style="
+           display: inline-block;
+           padding: 14px 25px;
+           background: #ad6274;
+           color: white;
+           text-decoration: none;
+           border-radius: 30px;
+           font-size: 13px;
+           ">
+
+            Discover Your Flower &nbsp; →
+
+        </a>
+
+
+    </div>
+
+    <div style="
+        position: relative;
+        text-align: center;
+    ">
+
+        <div style="
+            position: absolute;
+            width: 430px;
+            height: 430px;
+            background: #ead7d3;
+            border-radius: 50%;
+            top: -20px;
+            left: -30px;
+            z-index: 0;
+        ">
+        </div>
+
+
+        <img src="https://crownroundtable.org/wp-content/uploads/2019/08/images2190-5d425fdacfb55-1024x683.jpg"
+             alt="Beautiful Flower"
+             style="
+             position: relative;
+             z-index: 1;
+             width: 360px;
+             height: 480px;
+             object-fit: cover;
+             border-radius: 200px 200px 20px 20px;
+             border: 8px solid white;
+             box-shadow: 0 25px 60px rgba(70,50,50,0.15);
+             ">
+
+
+        <div style="
+            position: absolute;
+            z-index: 2;
+            bottom: 30px;
+            left: -30px;
+            background: rgba(255,255,255,0.9);
+            padding: 15px 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(70,50,50,0.12);
+        ">
+
+            <span style="
+                font-size: 25px;
+            ">
+                🌸
+            </span>
+
+            <span style="
+                font-family: 'DM Serif Display', serif;
+                color: #684f55;
+            ">
+                Bloom beautifully.
+            </span>
+
+        </div>
+
+
+    </div>
+	
+	
+
+</section>
+
+<section style="
+    text-align: center;
+    padding: 30px 20px 70px;
+">
+
+    <p style="
+        font-family: 'DM Serif Display', serif;
+        font-style: italic;
+        font-size: 20px;
+        color: #856d72;
+    ">
+
+        ✿ Every flower blooms in its own time. ✿
+
+    </p>
+
+</section>
+
+</main>
+
+
+
+
+
+<footer style="
+    background: #403436;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+">
+
+    <h2 style="
+        font-family: 'DM Serif Display', serif;
+        font-weight: normal;
+        color: #f5dfe3;
+    ">
+        🌷 Whimsical Blooms
+    </h2>
+
+    <p style="
+        color: #d5c5c8;
+        font-size: 13px;
+    ">
+        A little garden where every flower has a story.
+    </p>
+
+    <p style="
+        color: #9f8d91;
+        font-size: 11px;
+    ">
+        © 2026 Whimsical Blooms
+    </p>
+
+</footer>
+
+
+</body>
+</html>
